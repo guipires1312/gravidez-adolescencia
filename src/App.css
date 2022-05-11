@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  /*background-color: #282c34;*/  
-  min-height: 100vh;
+  /*background-color: #282c34; 
+  min-height: 100vh;*/  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,8 @@
 
 .ButtonPrincipal {
   height: 50px;
-  width: auto;
+  width: 20%;
+  margin: 2%;
   background-color: blue;
   color: white;
 }
