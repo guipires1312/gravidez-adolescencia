@@ -29,11 +29,25 @@
 }
 
 .ButtonPrincipal {
-  height: 50px;
-  width: 20%;
+  padding: 10px;
+  line-height: 1.15;
+  text-align: center;
+  border: 0;
+  border-radius: 6px;
+  font-size: 100%;
   margin: 2%;
   background-color: blue;
   color: white;
+}
+
+.ImageContainer {
+  max-width: 100%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.ImageContainer img {
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
